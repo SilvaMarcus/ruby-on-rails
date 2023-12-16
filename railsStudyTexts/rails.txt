@@ -1,0 +1,17 @@
+RUBY ON RAILS 
+
+MVC = 
+MODEL (Database)
+VIEW (Front)
+CONTROLER (Controle da Requisicao, consulta ao banco e resposta)
+
+
+=====SCAFFOLD======:
+Scaffold é um recurso oferecido pelo Ruby on Rails que gera automaticamente uma estrutura básica de código para criar rapidamente funcionalidades CRUD (Create, Read, Update, Delete) para um determinado modelo de dados. Ele cria os arquivos necessários para as views, controllers e migrations, acelerando o processo de desenvolvimento ao criar um esqueleto básico da aplicação a partir de um único comando. 
+
+rails generate scafold <Model> <campo:tipo>
+<campo: tipo>
+
+" rails g scaffold Coin description:string acronym:string url_image:string "
+
+Esse comando rails g scaffold Coin description:string acronym:string url_image:string cria de maneira automática todo o código necessário para um modelo chamado "Coin" no Ruby on Rails. Isso inclui a geração de arquivos para a criação, leitura, atualização e exclusão de moedas no banco de dados, com campos para descrição, sigla e URL de imagem. Este comando facilita o desenvolvimento, criando estruturas básicas de código para operações CRUD relacionadas às moedas. 
