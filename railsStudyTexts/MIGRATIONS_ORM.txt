@@ -1,0 +1,19 @@
+MIGRATION (Active Record / ORM)
+- Em resumo, Migrations São uma caracteristica do Active Record (O Framework) que permite escrever/especificar as tabelas do BD usando a linguagem Ruby.
+- Dessa forma, voce pode adicionar, modificar e removere tabelas do BD sem utilizar SQL, Além de ter sempre disponivel toda a sequencia de criação/alteração das tabelas envolvidas no projeto.
+- As migrações também controlcam quais ja foram ou nao aplicadas o BD atraves do arquivo db/schema.rb
+
+
+ACTIVE RECORD:
+ È o M do MVC, é a camada de software responsável pela lógica de dados e negócio.
+Existe um Framework do Rails chamado Active Record, que implenta a estrutura padrão Active Record por isso o mesmo nome.
+
+
+ORM (Object-Relational Mapping):
+Em resumo, é uma tecnica que mapeia os dados em um BD para classes/objetos na programação.
+
+
+
+- As Migrations ficam localiadas em db/migrate.
+- Sempre que criamos migrações. precisamos faze-las 'migrar' para o BD, ou seja aplicar as mudanças no BD.
+- Para isso, usamos algumas tasks predefinidas no Rails.
